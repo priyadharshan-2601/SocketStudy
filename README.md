@@ -54,7 +54,7 @@ Socket programming finds applications in various domains, including web developm
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
 
 ## Coding:
-
+```
 server.py
 import socket
 s = socket.socket()
@@ -79,6 +79,7 @@ s.connect(('localhost', 8000))
 while True:
     print(s.recv(1024).decode())
     s.send("Acknowledgement Received".encode())
+```
 
 ## Output:
 <img width="917" height="191" alt="image" src="https://github.com/user-attachments/assets/97ea35f4-8b38-4215-a5f8-b3c053e36128" />
