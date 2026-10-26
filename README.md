@@ -71,7 +71,9 @@ while True:
     else:
         c.close()
         break
+```
 
+```
 client.py
 import socket
 s = socket.socket()
